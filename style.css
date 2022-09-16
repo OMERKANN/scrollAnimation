@@ -1,0 +1,115 @@
+ * {
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(image/pexels-photo-301614.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(39, 36, 36);
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+
+
+.box {
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 500px;
+    margin: 30px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3);
+    transform: translateX(400%); 
+    transition: transform 0.4s ease;
+    margin-bottom: 55px;
+    
+}
+
+
+
+#japans{
+    background-image: url(image/japans.webp);
+    opacity: 0.6;
+}
+
+#karete{
+    background-image: url(image/karete.webp);
+    opacity: 0.6;
+}
+
+#galery{
+    background-image: url(image/pexels-photo-6253308.webp);
+    opacity: 0.6;
+}
+
+#contact{
+    background-image: url(image/leslie-jones-urBiLDuUhMU-unsplash.jpg);
+    opacity: 0.6;
+}
+
+
+
+.titleOne{
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    color: rgb(77, 67, 67);
+}
+
+.titleTwo{
+    color: rgb(53, 48, 48);
+    font-size: 40px;
+    margin: 15px;
+}
+
+
+.box:nth-of-type(even){
+    transform: translateX(-400%);
+}
+
+.box.show {
+    transform: translateX(0);
+}
+
+.box h2{
+    font-size: 55px;
+    position: fixed;
+    left: 200px;
+    font-family: sans-serif;
+    color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.container{
+    
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.ht a{
+   color: #fff;
+   text-decoration: none;
+}
